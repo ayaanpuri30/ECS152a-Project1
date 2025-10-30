@@ -4,7 +4,7 @@ SERVER_HOST = "127.0.0.1"
 SERVER_PORT = 9000
 SENTINEL = b"__END__"
 
-CHUNK_SIZE = 32 * 1024 # 32 KB per packet
+CHUNK_SIZE = 8 * 1024 # 32 KB per packet
 TOTAL_BYTES = 100 * 1024 * 1024 # 100 MB total to send
 RECV_TIMEOUT = 10.0 # seconds
 

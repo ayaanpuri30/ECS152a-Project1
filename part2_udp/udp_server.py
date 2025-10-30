@@ -53,7 +53,7 @@ if start_time is not None:
     server_socket.sendto(result_str.encode("ascii"), client_address)
 
     # ssummary
-    print("\n[RESULT]")
+    print("\nRESULT")
     print(f"Total bytes received: {total_bytes}")
     print(f"Time taken: {duration:.6f} seconds")
     print(f"Throughput: {result_str} KB/s")
