@@ -4,9 +4,9 @@ import time
 # server config
 HOST = "127.0.0.1"
 PORT = 9000
-BUFFER_SIZE = 65535  # max UDP payload size
-SENTINEL = b"__END__"  # final message from client
-TIMEOUT = 10.0 # in seconds
+BUFFER_SIZE = 65535 # max UDP payload size
+SENTINEL = b"__END__" # final message from client
+TIMEOUT = 10.0
 
 # UDP socket
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
